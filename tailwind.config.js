@@ -2,7 +2,7 @@ module.exports = {
   purge: {
     content: ["./public/**/*.html"],
     options: {
-      safelist: ['mx-auto', 'border-gray-400', 'border-2',  'rounded']
+      safelist: ['mx-auto', 'border-gray-300', 'border-2',  'rounded']
     }
   },
   theme: {
