@@ -1,5 +1,10 @@
 module.exports = {
-  purge: ["./public/**/*.html"],
+  purge: {
+    content: ["./public/**/*.html"],
+    options: {
+      safelist: ['mx-auto', 'border-gray-400', 'border-2',  'rounded']
+    }
+  },
   theme: {
     extend: {},
   },
