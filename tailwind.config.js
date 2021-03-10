@@ -21,8 +21,10 @@ module.exports = {
               '-webkit-font-smoothing': 'auto',
               '-moz-osx-font-smoothing': 'auto',
               color: theme('colors.gray.600'),
-              paddingLeft: '0.25rem',
-              paddingRight: '0.25rem',
+              paddingLeft: '0.4rem',
+              paddingRight: '0.4rem',
+              paddingTop: '0.25rem',
+              paddingBottom: '0.25rem',
               fontFamily: defaultTheme.fontFamily.mono,
               borderRadius: '0.25rem',
               backgroundColor: theme('colors.gray.200')
