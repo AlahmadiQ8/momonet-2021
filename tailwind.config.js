@@ -1,11 +1,10 @@
-const { backgroundColor } = require('tailwindcss/defaultTheme');
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   purge: {
     content: ["./public/**/*.html"],
     options: {
-      safelist: ['mx-auto', 'border-gray-300', 'border-2',  'rounded']
+      safelist: ['mx-auto', 'border-gray-300', 'border-2',  'rounded', 'prose-green']
     }
   },
   theme: {
@@ -35,6 +34,9 @@ module.exports = {
             ':not(pre) > code::after': {
               content: 'none'
             },
+            h1: {
+              fontWeight: defaultTheme.fontWeight.bold
+            }
           }
         },
         light: {
